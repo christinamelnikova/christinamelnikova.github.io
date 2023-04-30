@@ -87,15 +87,15 @@
 table{
     table-layout: fixed;
     width: 48%;
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0;
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 td:first-child{
     width: 25%;
 }
-
 tr{
     vertical-align: top;
 }
@@ -108,33 +108,13 @@ tr{
 h4{
     letter-spacing: 4px;
 }
-[class^="ans"]{
-    width: 51%;
+.answer td:first-child {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px; 
 }
-.ans1{
-    top: 510px;
-    position: absolute;
-    z-index: 1;
-}
-.ans2{
-    top: 780px;
-    position: absolute;
-    z-index: 1;
-}
-.ans3{
-    top: 1180px;
-    position: absolute;
-    z-index: 1;
-}
-.ans4{
-    top: 1450px;
-    position: absolute;
-    z-index: 1;
-}
-.ans5{
-    top: 1740px;
-    position: absolute;
-    z-index: 1;
+.answer td:last-child {
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px; 
 }
 .footer{
     width: 100%;
