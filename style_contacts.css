@@ -84,6 +84,9 @@
 .icons_contacts{
     width: 140px;
 }
+.icons_contacts:hover{
+    animation: rotation 4s infinite alternate;
+}
 .cell{
     width: 300px;
     height: 230px;
