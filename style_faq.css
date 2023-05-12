@@ -85,7 +85,9 @@
     border: solid white;
     border-radius: 100px;
 }
-
+.answer td{
+    border: solid white 15px;
+}
 
 table{
     table-layout: fixed;
