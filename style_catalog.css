@@ -13,7 +13,7 @@
     background-color: black;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 14pt;
+    font-size: calc(11pt + 0.5vw);
 }
 .header a{
     text-decoration: none;
@@ -34,7 +34,8 @@
 }
 .icons{
     object-fit: contain;
-    width: 25px;
+    max-width: 1.8vw;
+    min-width: 20px;
 }
 .menu{
     display: flex;
@@ -58,7 +59,7 @@
     margin: 0;
 }
 .logo{
-    width: 70px;
+    width: 4.6vw;
 }
 .shop_img{
     width: 100%;
@@ -122,15 +123,16 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .icons_circle{
-    width: 45px;
+    max-width: 3vw;
+    min-width: 30px;
 }
 .a{
     color: white !important;
     text-decoration: none;
 }
 .left_block{
-    font-size: 10pt;
-    width: 300px;
+    font-size: calc(5pt + 0.5vw);
+    width: 30%;
     letter-spacing: 1.5px;
     display: flex;
     flex-direction: column;
@@ -145,8 +147,8 @@
 }
 .right_block{
     text-align: right;
-    width: 300px;
-    font-size: 13pt;
+    width: 30%;
+    font-size: calc(9pt + 0.5vw);
     letter-spacing: 2px;
     font-weight: 700;
 }
